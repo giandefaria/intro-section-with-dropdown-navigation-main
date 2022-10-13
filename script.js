@@ -15,11 +15,11 @@ const selectedMenu = document.getElementsByClassName('selectedMenu');
 
 for (let i = 0; i < selectedMenu.length; i++) {
     selectedMenu[i].addEventListener('click', function (e) {
-        let inputIdArrowUp = selectedMenu[i].lastChild.lastChild.id;
-        let inputIdArrowDown = selectedMenu[i].firstChild.firstElementChild.id;
+        let IdArrowUp = selectedMenu[i].lastChild.lastChild.id;
+        let IdArrowDown = selectedMenu[i].firstChild.firstElementChild.id;
         
-        const arrowDown = document.getElementById(inputIdArrowDown);
-        const arrowUp = document.getElementById(inputIdArrowUp);
+        const arrowDown = document.getElementById(IdArrowDown);
+        const arrowUp = document.getElementById(IdArrowUp);
         console.log(arrowDown);
 
         if (arrowUp.style.display == 'none') {

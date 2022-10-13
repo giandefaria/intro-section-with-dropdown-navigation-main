@@ -1,0 +1,27 @@
+.box {
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+nav {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+    
+}
+nav a:hover {
+    filter: brightness(0);
+    font-weight: bold;
+
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+}

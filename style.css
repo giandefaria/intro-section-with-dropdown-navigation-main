@@ -1,27 +1,130 @@
-.box {
-    position: relative;
-    top: 40px;
-    left: 20px;
+header {
+    height: 100px;
+}
+
+.boxHeader {
+    margin: 30px 0 0 40px;
+    width: -webkit-fill-available;
 }
 nav {
-    position: absolute;
-    top: 0px;
-    left: 100px;
-
-}
-nav li {
-    display: inline;
-    margin: 0 0 0 20px;
+    display: inline-block;
+    vertical-align: top;
     
+}
+
+.navigation, .login {
+    display: inline-block;
+}
+
+.navigation li, .login li {
+    display: inline;
+    margin: 0 0 0 40px;
+    vertical-align: top;
+     
 }
 nav a:hover {
     filter: brightness(0);
-    font-weight: bold;
 
 }
-
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: hsl(0deg 1% 44% / 58%);
+    text-shadow: 0 0 1px hsl(0deg 0% 41%);
+    font-size: 17px;
 }
+
+.login {
+    position: fixed;
+    right: 5%;
+
+}
+
+#register {
+    border: solid;
+    border-color: hsl(0deg 1% 44% / 58%);
+    border-width: 2px;
+    border-radius: 13px;
+    padding: 10px 17px;
+}
+
+#register:hover {
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 13px;
+    padding: 10px 17px;
+    filter: brightness(0);
+    cursor: pointer;
+}
+
+/* Main CSS */
+
+.text {
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#messageBox {
+    width: 533px;
+    display: inline-block;
+    margin: auto 0;
+    position: relative;
+}
+
+.text h1 {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0 0 10% 0;
+
+}
+
+.text p {
+    font-size: 17px;
+    width: 380px;
+    line-height: 1.35;
+    margin: 0 0 50px 0;
+    color: hsl(0deg 1% 44% / 58%);
+    text-shadow: 0 0 1px hsl(0deg 0% 41%);
+}
+
+#mainImageBox {
+    width: 30%;
+    display: inline-block;
+}
+
+#mainImageBox img {
+    width: 490px;
+}
+
+#learnMore {
+    font-family: 'Epilogue', sans-serif;
+    margin: 0 0 10% 0;
+    border-radius: 12px;
+    padding: 14px 25px;
+    color: hsl(0, 0%, 98%);
+    background: hsl(0, 0%, 8%);
+    font-size: 15px;
+}
+
+#learnMore:active {
+    background: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 8%);
+}
+
+.client {
+    position: absolute;
+    top: 117%;
+}
+
+.clientMargin {
+    margin: 0 40px 0 0;
+}
+
+

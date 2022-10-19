@@ -1,3 +1,7 @@
+html {
+    background-color: hsl(0deg 0% 94%);
+}
+
 header {
     height: 100px;
 }
@@ -18,10 +22,12 @@ nav {
 
 .navigation li, .login li {
     display: inline;
-    margin: 0 0 0 40px;
+    margin: 0 0 0 60px;
     vertical-align: top;
      
 }
+
+
 nav a:hover {
     filter: brightness(0);
 
@@ -111,6 +117,7 @@ nav a {
     color: hsl(0, 0%, 98%);
     background: hsl(0, 0%, 8%);
     font-size: 15px;
+    cursor: pointer;
 }
 
 #learnMore:active {
@@ -128,3 +135,41 @@ nav a {
 }
 
 
+.dropDown {
+    display: block;
+    position: fixed;
+    background: #FFFFFF;
+    padding: 20px 0 0 0;
+    border-radius: 11px;
+
+}
+
+#dropFeatures {
+    width: 150px;
+    height: 125px;
+    left: 115px;
+    top: 7%;
+}
+
+#dropCompany {
+    width: 100px;
+    height: 92px;
+    left: 321px;
+    top: 7%;
+}
+
+.dropDown img {
+    width: 14px;
+    margin: 0 13px 0 0;
+    vertical-align: middle;
+}
+
+.dropDown li{
+    margin: 0 0 10px 20px;
+    display: block;
+}
+
+.dropDown a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}

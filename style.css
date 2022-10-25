@@ -126,6 +126,8 @@ nav a {
 }
 
 .client {
+    display: flex;
+    align-items: center;
     position: absolute;
     top: 117%;
 }
@@ -172,4 +174,100 @@ nav a {
 .dropDown a {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+}
+
+
+@media screen and (min-width: 481px) {
+
+#heroMobile {
+    display: none;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+
+html {
+    background-color: #FFFFFF;
+}
+
+.menu {
+    position: fixed;
+}
+
+.menu--ativo {
+    right: 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    right: unset;
+    position: static;
+
+}
+
+#heroDesktop {
+    display: none;
+}
+
+#heroMobile {
+    display: block;
+}
+
+.text {
+    flex-direction: column-reverse;
+}
+
+#mainImageBox img, #mainImageBox{
+    width: 100%;
+}
+
+#messageBox {
+    width: 100%;
+}
+
+.text h1 {
+    font-size: 42px;
+    text-align: center;
+    margin: 10% 3% 5%;
+}
+
+.text p {
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    display: block;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+#learnMore {
+    display: block;
+    margin: 0 auto;
+}
+
+.client {
+    position: unset;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px auto 0;
+}
+
+#audiophile {
+    width: 61px;
+}
+
+.clientMargin {
+    margin: 0;
+    width: 90px;
+}
+
+
 }

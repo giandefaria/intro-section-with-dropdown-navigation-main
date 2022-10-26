@@ -3,6 +3,10 @@ html {
     height: -webkit-fill-available;
 }
 
+body {
+    margin-bottom: 100px;
+}
+
 header {
     height: 100px;
 }
@@ -27,7 +31,6 @@ nav {
     vertical-align: top;
      
 }
-
 
 nav a:hover {
     filter: brightness(0);
@@ -177,181 +180,177 @@ nav a {
     font-size: 14px;
 }
 
+/* Media queries */
+
 
 @media screen and (min-width: 481px) {
 
-#heroMobile, #menuButton, .closeMenu {
-    display: none;
-}
-
-
+    #heroMobile, #menuButton, .closeMenu {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 480px) {
 
-html {
-    background-color: #FFFFFF;
-}
+    html {
+        background-color: #FFFFFF;
+    }
 
-.boxHeader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 26px 14px 40px;
-}
+    .boxHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 26px 14px 40px;
+    }
 
-.menu {
-    left: 500px;
-    transition: 0.25s;
-    position: fixed;
-    background: linear-gradient(to right, rgb(128 128 128 / 67%) 36%, white 36%);
-    top: 0;
-    height: -webkit-fill-available;
-    width: -webkit-fill-available;
-    z-index: 10;
-}
+    .menu {
+        left: 500px;
+        transition: 0.25s;
+        position: fixed;
+        background: linear-gradient(to right, rgb(128 128 128 / 67%) 36%, white 36%);
+        top: 0;
+        height: -webkit-fill-available;
+        width: -webkit-fill-available;
+        z-index: 10;
+    }
 
-.menu--ativo {
-    left: 0;
-    transition: 0.25s;
-}
+    .menu--ativo {
+        left: 0;
+        transition: 0.25s;
+    }
 
-.closeMenu {
-    width: 9%;
-    display: block;
-    margin: 8% 0 6% 76%;
-}
+    .closeMenu {
+        width: 9%;
+        display: block;
+        margin: 8% 0 6% 76%;
+    }
 
-nav a {
-    font-size: 18px;
-}
+    nav a {
+        font-size: 18px;
+    }
 
-nav a:hover {
-    all: unset;
-}
+    nav a:hover {
+        all: unset;
+    }
 
-.navigation {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    width: 70%;
-    margin: 0 0 0 36%;
-}
-
-
-.navigation li{
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 1px;
-    margin: 0 0 0 10px;
-    padding: 12px 16px;
-}
-
-.dropDown {
-    margin: 0 0 0 8%;
-}
-
-.dropDown, .dropDown a {
-    position: unset;
-    padding: unset;
-    font-size: 18px;
-}
-
-.dropDown img {
-    width: 17px;
-}
-
-#dropFeatures, #dropCompany {
-    width: 100%;
-    height: 100%;
-    margin: 4% 0 4% 8%;
-}
-
-.login {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    align-items: center;
-    width: 66%;
-    margin: 5% 0 0 36%;
-    right: unset;
-    position: fixed;
-
-}
-
-.login li {
-    margin: 0 0 4% 0;
-    padding: 8px 16px;
-}
-
-#heroDesktop {
-    display: none;
-}
-
-#register {
-    padding: 10px 26%;
-}
-
-#register:hover {
-    padding: 10px 26%;
-}
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        width: 70%;
+        margin: 0 0 0 36%;
+    }
 
 
+    .navigation li{
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 1px;
+        margin: 0 0 0 10px;
+        padding: 12px 16px;
+    }
 
-#heroMobile {
-    display: block;
-}
+    .dropDown {
+        margin: 0 0 0 8%;
+    }
 
-.text {
-    flex-direction: column-reverse;
-}
+    .dropDown, .dropDown a {
+        position: unset;
+        padding: unset;
+        font-size: 18px;
+    }
 
-#mainImageBox img, #mainImageBox{
-    width: 100%;
-}
+    .dropDown img {
+        width: 17px;
+    }
 
-#messageBox {
-    width: 100%;
-}
+    #dropFeatures, #dropCompany {
+        width: 100%;
+        height: 100%;
+        margin: 4% 0 4% 8%;
+    }
 
-.text h1 {
-    font-size: 42px;
-    text-align: center;
-    margin: 10% 3% 5%;
-}
+    .login {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        align-items: center;
+        width: 66%;
+        margin: 5% 0 0 36%;
+        right: unset;
+        position: fixed;
 
-.text p {
-    width: 100%;
-    letter-spacing: 1.5px;
-    line-height: 1.5;
-    display: block;
-    margin: 0 auto 30px;
-    text-align: center;
-}
+    }
 
-#learnMore {
-    display: block;
-    margin: 0 auto;
-}
+    .login li {
+        margin: 0 0 4% 0;
+        padding: 8px 16px;
+    }
 
-.client {
-    position: unset;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    margin: 50px auto 0;
-}
+    #heroDesktop {
+        display: none;
+    }
 
-#audiophile {
-    width: 61px;
-}
+    #register {
+        padding: 10px 26%;
+    }
 
-.clientMargin {
-    margin: 0;
-    padding: 8px;
-    width: 90px;
-}
+    #register:hover {
+        padding: 10px 26%;
+    }
 
+    #heroMobile {
+        display: block;
+    }
 
+    .text {
+        flex-direction: column-reverse;
+    }
+
+    #mainImageBox img, #mainImageBox{
+        width: 100%;
+    }
+
+    #messageBox {
+        width: 100%;
+    }
+
+    .text h1 {
+        font-size: 42px;
+        text-align: center;
+        margin: 10% 3% 5%;
+    }
+
+    .text p {
+        width: 100%;
+        letter-spacing: 1.5px;
+        line-height: 1.5;
+        display: block;
+        margin: 0 auto 30px;
+        text-align: center;
+    }
+
+    #learnMore {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .client {
+        position: unset;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        margin: 50px auto 0;
+    }
+
+    #audiophile {
+        width: 61px;
+    }
+
+    .clientMargin {
+        margin: 0;
+        padding: 8px;
+        width: 90px;
+    }
 }

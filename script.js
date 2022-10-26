@@ -37,9 +37,11 @@ for (let i = 0; i < selectedMenu.length; i++) {
     )
 }
 
+
+//function open menu in mobile view
+
 const menuButton = document.querySelectorAll('#menuButton, .closeMenu');
 const menu = document.querySelector('.menu');
-//const buttonCloseMenu = document.querySelector('.closeMenu')/
 
 for (let i = 0; i < menuButton.length; i++) {
     menuButton[i].addEventListener('click', () => {
@@ -48,9 +50,3 @@ for (let i = 0; i < menuButton.length; i++) {
     })
     
 }
-
-
-
-//adicionar uma class nas duas li. Usar o for para mapear o índice. Atribuir uma variável para selecionar essas classes.
-//adicioar um eventlineter com o índice dessa variável da classe. Fazer esse event listener repassar para a função as informações
-//pegar as informações e identificar a id pelo target e depois criar a string variável de acordo com o elemento clicado

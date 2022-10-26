@@ -36,7 +36,19 @@ for (let i = 0; i < selectedMenu.length; i++) {
         }
     )
 }
+
+const menuButton = document.querySelectorAll('#menuButton, .closeMenu');
+const menu = document.querySelector('.menu');
+//const buttonCloseMenu = document.querySelector('.closeMenu')/
+
+for (let i = 0; i < menuButton.length; i++) {
+    menuButton[i].addEventListener('click', () => {
+        menu.classList.toggle('menu--ativo');
+
+    })
     
+}
+
 
 
 //adicionar uma class nas duas li. Usar o for para mapear o índice. Atribuir uma variável para selecionar essas classes.

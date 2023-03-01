@@ -1,15 +1,15 @@
 <p align="center">
   <image
-  src="https://img.shields.io/github/languages/count/giandefaria/interactive-comments-section-main"
+  src="https://img.shields.io/github/languages/count/giandefaria/intro-section-with-dropdown-navigation-main"
   />
   <image
-  src="https://img.shields.io/github/languages/top/giandefaria/interactive-comments-section-main"
+  src="https://img.shields.io/github/languages/top/giandefaria/intro-section-with-dropdown-navigation-main"
   />
   <image
-  src="https://img.shields.io/github/last-commit/giandefaria/interactive-comments-section-main"
+  src="https://img.shields.io/github/last-commit/giandefaria/intro-section-with-dropdown-navigation-main"
   />
   <image
-  src="https://img.shields.io/github/watchers/giandefaria/interactive-comments-section-main"
+  src="https://img.shields.io/github/watchers/giandefaria/intro-section-with-dropdown-navigation-main"
   />
 </p>
 

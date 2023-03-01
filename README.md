@@ -26,7 +26,7 @@
 O layout do projeto é baseado nesse challenge do site Frontend Mentor: https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5
 
 
-O objetivo é criar uma calculadora que definirá o valor a ser pago por cada pessoa na conta de um restaurante. Será informado o valor total da conta, o número de pessoas, e a % do valor que será pago a título de gorjeta.
+O objetivo é criar uma página inicial com menus suspensos que serão exibidos ao interagir com os itens de navegação na parte superior do site.
 
 Para executar esse projeto basta executar o arquivo index.html.
 

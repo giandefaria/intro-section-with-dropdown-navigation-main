@@ -1,15 +1,15 @@
 <p align="center">
   <image
-  src="https://img.shields.io/github/languages/count/giandefaria/tip-calculator-app-main"
+  src="https://img.shields.io/github/languages/count/giandefaria/interactive-comments-section-main"
   />
   <image
-  src="https://img.shields.io/github/languages/top/giandefaria/tip-calculator-app-main"
+  src="https://img.shields.io/github/languages/top/giandefaria/interactive-comments-section-main"
   />
   <image
-  src="https://img.shields.io/github/last-commit/giandefaria/tip-calculator-app-main"
+  src="https://img.shields.io/github/last-commit/giandefaria/interactive-comments-section-main"
   />
   <image
-  src="https://img.shields.io/github/watchers/giandefaria/tip-calculator-app-main"
+  src="https://img.shields.io/github/watchers/giandefaria/interactive-comments-section-main"
   />
 </p>
 
